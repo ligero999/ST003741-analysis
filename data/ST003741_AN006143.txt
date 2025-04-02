@@ -1,0 +1,557 @@
+#METABOLOMICS WORKBENCH BDrotleff_20250218_005836 DATATRACK_ID:5641 STUDY_ID:ST003741 ANALYSIS_ID:AN006143 PROJECT_ID:PR002327
+VERSION             	1
+CREATED_ON             	February 20, 2025, 7:47 am
+#PROJECT
+PR:PROJECT_TITLE                 	A Metabolite-Based Resistance Mechanism Against Malaria
+PR:PROJECT_SUMMARY               	Jaundice is a common clinical presentation of Plasmodium (P.) falciparum
+PR:PROJECT_SUMMARY               	malaria, arising from the accumulation of circulating bilirubin. Whether the
+PR:PROJECT_SUMMARY               	active production of this lipophilic yellow pigment by biliverdin reductase A
+PR:PROJECT_SUMMARY               	(BVRA) represents an adaptive or maladaptive response to Plasmodium infection is
+PR:PROJECT_SUMMARY               	not understood. Here we found that the transition of P. falciparum infection
+PR:PROJECT_SUMMARY               	from asymptomatic towards symptomatic malaria was associated with a &gt;10-fold
+PR:PROJECT_SUMMARY               	reduction in the ratio of circulating unconjugated bilirubin over parasite
+PR:PROJECT_SUMMARY               	burden. Genetic deletion of Blvra in mice suppressed bilirubin production and
+PR:PROJECT_SUMMARY               	precipitated malaria mortality, owed to higher parasite burden and virulence.
+PR:PROJECT_SUMMARY               	Inhibition of bilirubin conjugation by the repression of hepatic UDP
+PR:PROJECT_SUMMARY               	glucuronosyltransferase family 1 member A1 (UGT1A1), increased the levels of
+PR:PROJECT_SUMMARY               	circulating unconjugated bilirubin and prevented malaria mortality. Unconjugated
+PR:PROJECT_SUMMARY               	bilirubin targeted P. falciparum directly inside red blood cells (RBC) to
+PR:PROJECT_SUMMARY               	suppress mitochondrion pyrimidine synthesis and inhibit the formation of
+PR:PROJECT_SUMMARY               	hemozoin crystals, compromising the parasite´s food vacuole´s capacity to
+PR:PROJECT_SUMMARY               	detoxify heme and extract essential amino acids (AA) from hemoglobin. In
+PR:PROJECT_SUMMARY               	conclusion, jaundice represents an evolutionary conserved metabolic response to
+PR:PROJECT_SUMMARY               	Plasmodium spp. infection that limits malaria severity.
+PR:INSTITUTE                     	European Molecular Biology Laboratory
+PR:DEPARTMENT                    	EMBL Heidelberg
+PR:LAST_NAME                     	Drotleff
+PR:FIRST_NAME                    	Bernhard
+PR:ADDRESS                       	Meyerhofstr. 1, Heidelberg, BW, 69117, Germany
+PR:EMAIL                         	bernhard.drotleff@embl.de
+PR:PHONE                         	none
+PR:PUBLICATIONS                  	in preparation
+PR:CONTRIBUTORS                  	Ana Figueiredo, Sonia Trikha Rastogi, Susana Ramos, Fátima Nogueira, Katherine
+PR:CONTRIBUTORS                  	De Villiers, António G. Gonçalves de Sousa, Lasse Votborg-Novél, Cäcilie von
+PR:CONTRIBUTORS                  	Wedel, Pinkus Tober-Lau, Elisa Jentho, Sara Pagnotta, Miguel Mesquita, Silvia
+PR:CONTRIBUTORS                  	Cardoso, Giulia Bortolussi, Andres Munro, Erin M. Tranfield, Jessica Thibaud,
+PR:CONTRIBUTORS                  	Denise Duarte, Ana Laura Sousa, Sandra N. Pinto, Jamil Kitoko, Ghyslain
+PR:CONTRIBUTORS                  	Mombo-Ngoma, Johannes Mischlinger, Sini Junttila, Marta Alenquer, Maria João
+PR:CONTRIBUTORS                  	Amorim, Chirag Vasavda, Piter J. Bosma, Sara Violante, Bernhard Drotleff, Tiago
+PR:CONTRIBUTORS                  	Paixão, Silvia Portugal, Florian Kurth, Laura L. Elo, Bindu Paul, Rui Martins &
+PR:CONTRIBUTORS                  	Miguel P. Soares
+#STUDY
+ST:STUDY_TITLE                   	A Metabolite-Based Resistance Mechanism Against Malaria
+ST:STUDY_SUMMARY                 	Jaundice is a common clinical presentation of Plasmodium (P.) falciparum
+ST:STUDY_SUMMARY                 	malaria, arising from the accumulation of circulating bilirubin. Whether the
+ST:STUDY_SUMMARY                 	active production of this lipophilic yellow pigment by biliverdin reductase A
+ST:STUDY_SUMMARY                 	(BVRA) represents an adaptive or maladaptive response to Plasmodium infection is
+ST:STUDY_SUMMARY                 	not understood. Here we found that the transition of P. falciparum infection
+ST:STUDY_SUMMARY                 	from asymptomatic towards symptomatic malaria was associated with a &gt;10-fold
+ST:STUDY_SUMMARY                 	reduction in the ratio of circulating unconjugated bilirubin over parasite
+ST:STUDY_SUMMARY                 	burden. Genetic deletion of Blvra in mice suppressed bilirubin production and
+ST:STUDY_SUMMARY                 	precipitated malaria mortality, owed to higher parasite burden and virulence.
+ST:STUDY_SUMMARY                 	Inhibition of bilirubin conjugation by the repression of hepatic UDP
+ST:STUDY_SUMMARY                 	glucuronosyltransferase family 1 member A1 (UGT1A1), increased the levels of
+ST:STUDY_SUMMARY                 	circulating unconjugated bilirubin and prevented malaria mortality. Unconjugated
+ST:STUDY_SUMMARY                 	bilirubin targeted P. falciparum directly inside red blood cells (RBC) to
+ST:STUDY_SUMMARY                 	suppress mitochondrion pyrimidine synthesis and inhibit the formation of
+ST:STUDY_SUMMARY                 	hemozoin crystals, compromising the parasite´s food vacuole´s capacity to
+ST:STUDY_SUMMARY                 	detoxify heme and extract essential amino acids (AA) from hemoglobin. In
+ST:STUDY_SUMMARY                 	conclusion, jaundice represents an evolutionary conserved metabolic response to
+ST:STUDY_SUMMARY                 	Plasmodium spp. infection that limits malaria severity.
+ST:INSTITUTE                     	European Molecular Biology Laboratory
+ST:DEPARTMENT                    	EMBL Heidelberg
+ST:LAST_NAME                     	Drotleff
+ST:FIRST_NAME                    	Bernhard
+ST:ADDRESS                       	Meyerhofstr. 1, Heidelberg, BW, 69117, Germany
+ST:EMAIL                         	bernhard.drotleff@embl.de
+ST:PHONE                         	none
+ST:PUBLICATIONS                  	in preparation
+#SUBJECT
+SU:SUBJECT_TYPE                  	Human
+SU:SUBJECT_SPECIES               	Homo sapiens
+SU:TAXONOMY_ID                   	9606
+#SUBJECT_SAMPLE_FACTORS:         	SUBJECT(optional)[tab]SAMPLE[tab]FACTORS(NAME:VALUE pairs separated by |)[tab]Raw file names and additional sample data
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_Blank_1	Treatment:Blank | Timepoint:12h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=neg
+h_Blank_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_Blank_2	Treatment:Blank | Timepoint:12h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=neg
+h_Blank_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_Blank_3	Treatment:Blank | Timepoint:12h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=neg
+h_Blank_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_Blank_1	Treatment:Blank | Timepoint:8h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=neg8h_Blank_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_Blank_2	Treatment:Blank | Timepoint:8h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=neg8h_Blank_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_Blank_3	Treatment:Blank | Timepoint:8h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=neg8h_Blank_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC03	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC03.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC04	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC04.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC05	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC05.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC06	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC06.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC07	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC07.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC08	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC08.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC09	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC09.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC10	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC10.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC11	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC11.raw
+SUBJECT_SAMPLE_FACTORS           	Human	negQC12	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=negQC12.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-BR_1	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-BR_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-BR_2	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-BR_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-BR_3	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-BR_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-BR_4	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-BR_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-BR_5	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-BR_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-DMSO_1	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-DMSO_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-DMSO_2	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-DMSO_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-DMSO_3	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-DMSO_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-DMSO_4	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-DMSO_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_iRBC-DMSO_5	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_iRBC-DMSO_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-BR_1	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-BR_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-BR_2	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-BR_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-BR_3	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-BR_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-BR_4	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-BR_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-BR_5	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-BR_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-DMSO_1	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-DMSO_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-DMSO_2	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-DMSO_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-DMSO_3	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-DMSO_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-DMSO_4	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-DMSO_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg
+h_RBC-DMSO_5	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg
+h_RBC-DMSO_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-BR_1	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-BR_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-BR_2	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-BR_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-BR_3	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-BR_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-BR_4	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-BR_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-BR_5	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-BR_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-DMSO_1	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-DMSO_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-DMSO_2	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-DMSO_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-DMSO_3	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-DMSO_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-DMSO_4	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-DMSO_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_iRBC-DMSO_5	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_iRBC-DMSO_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-BR_1	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-BR_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-BR_2	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-BR_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-BR_3	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-BR_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-BR_4	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-BR_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-BR_5	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-BR_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-DMSO_1	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-DMSO_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-DMSO_2	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-DMSO_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-DMSO_3	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-DMSO_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-DMSO_4	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-DMSO_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	neg8h_RBC-DMSO_5	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=neg8h_RBC-DMSO_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_Blank_1	Treatment:Blank | Timepoint:12h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=pos
+h_Blank_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_Blank_2	Treatment:Blank | Timepoint:12h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=pos
+h_Blank_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_Blank_3	Treatment:Blank | Timepoint:12h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=pos
+h_Blank_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_Blank_1	Treatment:Blank | Timepoint:8h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=pos8h_Blank_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_Blank_2	Treatment:Blank | Timepoint:8h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=pos8h_Blank_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_Blank_3	Treatment:Blank | Timepoint:8h | Sample source:Blank	RAW_FILE_NAME(Raw file name)=pos8h_Blank_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC03	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC03.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC04	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC04.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC05	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC05.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC06	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC06.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC07	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC07.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC08	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC08.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC09	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC09.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC10	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC10.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC11	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC11.raw
+SUBJECT_SAMPLE_FACTORS           	Human	posQC12	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	RAW_FILE_NAME(Raw file name)=posQC12.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-BR_1	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-BR_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-BR_2	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-BR_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-BR_3	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-BR_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-BR_4	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-BR_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-BR_5	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-BR_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-DMSO_1	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-DMSO_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-DMSO_2	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-DMSO_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-DMSO_3	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-DMSO_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-DMSO_4	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-DMSO_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_iRBC-DMSO_5	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_iRBC-DMSO_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-BR_1	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-BR_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-BR_2	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-BR_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-BR_3	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-BR_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-BR_4	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-BR_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-BR_5	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-BR_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-DMSO_1	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-DMSO_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-DMSO_2	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-DMSO_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-DMSO_3	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-DMSO_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-DMSO_4	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-DMSO_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos
+h_RBC-DMSO_5	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos
+h_RBC-DMSO_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-BR_1	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-BR_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-BR_2	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-BR_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-BR_3	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-BR_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-BR_4	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-BR_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-BR_5	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-BR_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-DMSO_1	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-DMSO_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-DMSO_2	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-DMSO_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-DMSO_3	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-DMSO_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-DMSO_4	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-DMSO_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_iRBC-DMSO_5	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_iRBC-DMSO_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-BR_1	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-BR_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-BR_2	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-BR_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-BR_3	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-BR_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-BR_4	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-BR_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-BR_5	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-BR_5.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-DMSO_1	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-DMSO_1.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-DMSO_2	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-DMSO_2.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-DMSO_3	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-DMSO_3.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-DMSO_4	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-DMSO_4.raw
+SUBJECT_SAMPLE_FACTORS           	Human	pos8h_RBC-DMSO_5	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	RAW_FILE_NAME(Raw file name)=pos8h_RBC-DMSO_5.raw
+#COLLECTION
+CO:COLLECTION_SUMMARY            	PfD7-GFP cultures (Plasmodium falciparum) were synchronized as described in DOI:
+CO:COLLECTION_SUMMARY            	10.1016/j.ejmech.2015.07.047. Trophozoite stage parasites (approximately 18-20h
+CO:COLLECTION_SUMMARY            	after invasion, 15% parasitemia, 5% HCT, 2 ml culture per sample) were treated
+CO:COLLECTION_SUMMARY            	with vehicle (0.35% vol/vol DMSO) or bilirubin (41 µM) for 8 or 12h.
+CO:SAMPLE_TYPE                   	Red blood cells
+#TREATMENT
+TR:TREATMENT_SUMMARY             	PfD7-GFP cultures (Plasmodium falciparum) were synchronized as described in DOI:
+TR:TREATMENT_SUMMARY             	10.1016/j.ejmech.2015.07.047. Trophozoite stage parasites (approximately 18-20h
+TR:TREATMENT_SUMMARY             	after invasion, 15% parasitemia, 5% HCT, 2 ml culture per sample) were treated
+TR:TREATMENT_SUMMARY             	with vehicle (0.35% vol/vol DMSO) or bilirubin (41 µM) for 8 or 12h.
+#SAMPLEPREP
+SP:SAMPLEPREP_SUMMARY            	The chemicals used were LC-MS grade water, acetonitrile (ACN), methanol (MeOH),
+SP:SAMPLEPREP_SUMMARY            	and isopropanol (IPA), which were obtained from Th. Geyer (Germany). High-purity
+SP:SAMPLEPREP_SUMMARY            	methyl tert-butyl ether (MTBE), ammonium formate, formic acid, ammonium acetate,
+SP:SAMPLEPREP_SUMMARY            	and acetic acid were purchased from Merck (Germany). Stable isotope labelled
+SP:SAMPLEPREP_SUMMARY            	internal standards for lipidomics (EquiSPLASH; Avanti Polar Lipids, AL, USA) and
+SP:SAMPLEPREP_SUMMARY            	metabolomics (MSK-A2-1.2; Cambridge Isotope Laboratories, MA, USA) were used at
+SP:SAMPLEPREP_SUMMARY            	final concentrations of 0.5% and 1.0% (vol/vol), respectively. The culture
+SP:SAMPLEPREP_SUMMARY            	medium was completely aspirated and the cells washed with 1XPBS (500xg, 5 min).
+SP:SAMPLEPREP_SUMMARY            	For biphasic extraction of lipids and polar metabolites, samples were initially
+SP:SAMPLEPREP_SUMMARY            	quenched by incubation on dry ice with 400 μL of 75% (vol/vol) cold methanol
+SP:SAMPLEPREP_SUMMARY            	for 20 min and the appropriate internal standards (0.5 µL each/sample) were
+SP:SAMPLEPREP_SUMMARY            	added. After incubation, the samples were vortexed for 5 min at maximum speed,
+SP:SAMPLEPREP_SUMMARY            	lysed using an ultrasonic bath to sonicate the sample for 5 min and vortexed
+SP:SAMPLEPREP_SUMMARY            	again briefly after sonication. After addition of 1000 µL of cold MTBE, the
+SP:SAMPLEPREP_SUMMARY            	monophasic mixture was vortexed for 60 s and incubated at -20°C for 20 min. For
+SP:SAMPLEPREP_SUMMARY            	phase separation, 250 µL of cold water were added, followed by another
+SP:SAMPLEPREP_SUMMARY            	vortexing and incubation step (see previous conditions). The biphasic solvent
+SP:SAMPLEPREP_SUMMARY            	system was then centrifuged for 15 min at 14,000g and 4 °C. For metabolomics
+SP:SAMPLEPREP_SUMMARY            	analysis, 400 µL of the lower bottom aqueous phase were transferred, dried
+SP:SAMPLEPREP_SUMMARY            	under a stream of nitrogen, and reconstituted in 75 µL 80% MeOH (v/v). The
+SP:SAMPLEPREP_SUMMARY            	final samples were vortexed for 10 min, centrifuged (see previous conditions)
+SP:SAMPLEPREP_SUMMARY            	and the supernatants were transferred to analytical glass vials for LC-MS/MS
+SP:SAMPLEPREP_SUMMARY            	analysis.
+#CHROMATOGRAPHY
+CH:CHROMATOGRAPHY_SUMMARY        	LC-MS/MS analysis was performed on a Vanquish UHPLC system coupled to an
+CH:CHROMATOGRAPHY_SUMMARY        	Orbitrap Exploris 240 high-resolution mass spectrometer (Thermo Fisher
+CH:CHROMATOGRAPHY_SUMMARY        	Scientific, MA, USA) in negative and positive ESI (electrospray ionization)
+CH:CHROMATOGRAPHY_SUMMARY        	mode. Chromatographic separation was carried out on an Atlantis Premier BEH
+CH:CHROMATOGRAPHY_SUMMARY        	Z-HILIC column (Waters, MA, USA; 2.1 mm x 100 mm, 1.7 µm) at a flow rate of
+CH:CHROMATOGRAPHY_SUMMARY        	0.25 mL/min. The mobile phase consisted of water:acetonitrile (9:1, v/v; mobile
+CH:CHROMATOGRAPHY_SUMMARY        	phase A) and acetonitrile:water (9:1, v/v; mobile phase B), which were modified
+CH:CHROMATOGRAPHY_SUMMARY        	with a total buffer concentration of 10 mM ammonium acetate, when analysing in
+CH:CHROMATOGRAPHY_SUMMARY        	negative mode, and 10 mM ammonium formate, when analysing in positive mode. The
+CH:CHROMATOGRAPHY_SUMMARY        	aqueous portion of each mobile phase was pH-adjusted (negative mode: pH 9.0 via
+CH:CHROMATOGRAPHY_SUMMARY        	addition of ammonium hydroxide; positive mode: pH 3.0 via addition of formic
+CH:CHROMATOGRAPHY_SUMMARY        	acid). The following gradient (20 min total run time including re-equilibration)
+CH:CHROMATOGRAPHY_SUMMARY        	was applied (time [min]/%B): 0/95, 2/95, 14.5/60, 16/60, 16.5/95, 20/95. Column
+CH:CHROMATOGRAPHY_SUMMARY        	temperature was maintained at 40 °C, the autosampler was set to 4 °C and
+CH:CHROMATOGRAPHY_SUMMARY        	sample injection volume was 5 µL.
+CH:CHROMATOGRAPHY_TYPE           	HILIC
+CH:INSTRUMENT_NAME               	Thermo Vanquish
+CH:COLUMN_NAME                   	Waters Atlantis Premier BEH Z-HILIC (100 x 2.1mm, 1.7um)
+CH:SOLVENT_A                     	90% water/10% acetonitrile; 10 mM ammonium formate pH3
+CH:SOLVENT_B                     	90% acetonitrile/10% water; 10 mM ammonium formate pH3
+CH:FLOW_GRADIENT                 	time [min]/%B: 0/95, 2/95, 14.5/60, 16/60, 16.5/95, 20/95
+CH:FLOW_RATE                     	0.25mL/min
+CH:COLUMN_TEMPERATURE            	40
+#ANALYSIS
+AN:ANALYSIS_TYPE                 	MS
+#MS
+MS:INSTRUMENT_NAME               	Thermo Orbitrap Exploris 240
+MS:INSTRUMENT_TYPE               	Orbitrap
+MS:MS_TYPE                       	ESI
+MS:ION_MODE                      	POSITIVE
+MS:MS_COMMENTS                   	Analytes were recorded via a full scan with a mass resolving power of 120,000
+MS:MS_COMMENTS                   	over a mass range from 60 – 900 m/z (scan time: 100 ms, RF lens: 70%). To
+MS:MS_COMMENTS                   	obtain MS/MS fragment spectra, data dependent acquisition was carried out
+MS:MS_COMMENTS                   	(resolving power: 15,000; scan time: 22 ms; stepped collision energies [%]:
+MS:MS_COMMENTS                   	30/50/70; cycle time: 900 ms). Ion source parameters were set to the following
+MS:MS_COMMENTS                   	values: spray voltage: 4100 V (positive mode), sheath gas: 30 psi, auxiliary
+MS:MS_COMMENTS                   	gas: 5 psi, sweep gas: 0 psi, ion transfer tube temperature: 350 °C, vaporizer
+MS:MS_COMMENTS                   	temperature: 300 °C.
+#MS_METABOLITE_DATA
+MS_METABOLITE_DATA:UNITS	Peak intensity (cps)
+MS_METABOLITE_DATA_START
+Samples	pos
+h_Blank_1	pos
+h_Blank_2	pos
+h_Blank_3	pos
+h_iRBC-BR_1	pos
+h_iRBC-BR_2	pos
+h_iRBC-BR_3	pos
+h_iRBC-BR_4	pos
+h_iRBC-BR_5	pos
+h_iRBC-DMSO_1	pos
+h_iRBC-DMSO_2	pos
+h_iRBC-DMSO_3	pos
+h_iRBC-DMSO_4	pos
+h_iRBC-DMSO_5	pos
+h_RBC-BR_1	pos
+h_RBC-BR_2	pos
+h_RBC-BR_3	pos
+h_RBC-BR_4	pos
+h_RBC-BR_5	pos
+h_RBC-DMSO_1	pos
+h_RBC-DMSO_2	pos
+h_RBC-DMSO_3	pos
+h_RBC-DMSO_4	pos
+h_RBC-DMSO_5	pos8h_Blank_1	pos8h_Blank_2	pos8h_Blank_3	pos8h_iRBC-BR_1	pos8h_iRBC-BR_2	pos8h_iRBC-BR_3	pos8h_iRBC-BR_4	pos8h_iRBC-BR_5	pos8h_iRBC-DMSO_1	pos8h_iRBC-DMSO_2	pos8h_iRBC-DMSO_3	pos8h_iRBC-DMSO_4	pos8h_iRBC-DMSO_5	pos8h_RBC-BR_1	pos8h_RBC-BR_2	pos8h_RBC-BR_3	pos8h_RBC-BR_4	pos8h_RBC-BR_5	pos8h_RBC-DMSO_1	pos8h_RBC-DMSO_2	pos8h_RBC-DMSO_3	pos8h_RBC-DMSO_4	pos8h_RBC-DMSO_5	posQC03	posQC04	posQC05	posQC06	posQC07	posQC08	posQC09	posQC10	posQC11	posQC12
+Factors	Treatment:Blank | Timepoint:12h | Sample source:Blank	Treatment:Blank | Timepoint:12h | Sample source:Blank	Treatment:Blank | Timepoint:12h | Sample source:Blank	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:12h | Sample source:Red blood cells	Treatment:Blank | Timepoint:8h | Sample source:Blank	Treatment:Blank | Timepoint:8h | Sample source:Blank	Treatment:Blank | Timepoint:8h | Sample source:Blank	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:Plasmodium falciparum infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  Bilirubin | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:non-infected  DMSO | Timepoint:8h | Sample source:Red blood cells	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC	Treatment:pooled QC | Timepoint:pooled QC | Sample source:pooled QC
+Trimethylamine	17121	23055	13936	609781	567353	692522	603290	661485	643475	692863	662757	547077	631001	1087951	1242718	1726842	1250058	1566304	1317152	1831977	1465631	1237613	1049108	22885	24425	27206	625604	603723	574030	589988	590235	629616	746881	734556	653005	745518	975670	1386451	1077894	1349039	1873200	1457457	1329322	2159804	1257455	1485877	936850	926773	812016	1021746	1039352	1023908	983952	1036389	1007350	994568
+Urea	1120126	1111619	1104312	5208511	5083687	5453847	4928233	5159563	4218498	4709039	5588952	4136894	5281430	3489157	3449374	5862314	5140886	5189498	3848572	6286874	3989501	2879978	3311264	1094915	1126780	1075675	3718636	3863596	4224699	2378738	4474575	3285441	3237228	4575434	3418895	4206521	2090558	2699396	2161488	2600168	3183790	2176320	2880420	3610052	2464385	2058314	3946130	3913457	3326531	3980380	3989599	4103795	3920534	3777426	3863613	3736606
+Putrescine	510270	511785	519929	25564598	22852086	20688600	19719700	20931270	26545708	26504592	33160150	32247316	32403398	771236	746070	763856	835525	756867	731186	700987	779273	750526	671127	501256	497144	529892	15547415	17371016	14153240	17780286	15073131	24652230	17726168	14753500	18744728	25423132	759699	704167	725381	722094	673776	732638	715302	679656	741465	663398	10946571	8251994	12235481	12697327	12405994	12223288	10519971	9476869	9863354	10034101
+Trimethylamine N-oxide	758122	695389	716404	1831447	1431978	1458822	1514310	1565265	1113608	1138729	1531054	1555945	1362004	35264312	44472972	46385520	49649700	51252768	37267720	43977628	41618288	43549536	35455680	964082	962151	982850	1851804	2528240	1802492	1659685	1768766	2440669	1823226	1496995	1570466	2422337	36534344	57294764	44925016	52062208	49076952	43082328	53449128	67977976	55748496	42004348	26482212	27228356	19586758	26311056	27473518	25472866	22040186	21835646	21619116	21204798
+Alanine	580288	559649	549407	8067093	6573984	5016350	7459910	7826250	7394921	7387834	8031254	7960087	7561268	3406967	3760194	4938376	4267872	4144057	3856738	4567690	3646482	3785930	3597609	707761	633727	625046	7385756	6613586	4855118	5737628	4790724	9044595	7404820	6081140	5839544	9129705	2887960	3552314	3073032	3780739	3540535	3209790	3616512	4296984	3648649	3220396	5711106	5664882	5570590	6210512	6336349	6089638	6214800	5992758	5893868	5842556
+5-Aminovaleric acid	21843	17161	19812	753375	289248	739279	284261	279348	130061	153975	242582	225931	204275	83475	127236	142650	129780	153864	102128	115997	117821	107469	94354	23233	23331	17452	244088	223195	249157	1808115	192170	843176	617558	899540	550429	994914	97256	107588	86471	120721	103168	98484	125331	152419	108698	93192	276168	331760	256649	343643	315973	301564	252710	291810	257008	260620
+Homoserine*	15216	11109	17750	436138	307033	279979	454590	430552	347018	372840	416314	412077	414794	303016	311164	475292	364769	398340	338588	443361	351174	296363	291363	16074	13293	11953	410439	436410	260381	334479	260491	547391	450338	356012	317006	559148	254534	322001	294626	343793	326281	295632	327539	381305	320398	272876	414423	413831	340506	411948	419221	419912	405235	396852	379672	407592
+gamma-Aminobutyric acid	165350	161616	157401	4635412	4130236	3669613	4615732	4915676	6639232	6824570	7118494	6890942	6418835	189957	207350	214448	237286	206119	235689	217649	217011	245288	231900	247288	192045	183420	5881333	5223364	4542971	4633928	4605536	8727281	7458796	7298236	6689423	8580160	224318	227340	219855	259321	225379	267286	222087	288253	206260	235096	2646207	2613994	2807186	3116164	3250369	3401515	3075526	3051306	2957920	2804000
+Dimethylglycine	177040	167344	155436	163453	131633	166913	153287	146221	124062	159527	149827	136808	155162	383963	466141	552884	495190	478991	415871	541837	404886	423862	441324	212855	196139	177279	154060	175116	163293	168350	146514	155927	166265	153693	144678	159878	531017	716510	631352	771006	737073	648967	710238	938471	705291	559592	351537	382617	321489	377246	332906	370391	388124	348535	319400	347872
+Choline	667443	655043	594937	479116992	390958560	389508032	447265664	450912000	351993216	372474688	393280320	378145600	370776736	442192608	464293312	555845504	512845536	530711008	455099712	522415200	459924960	445177856	353581568	2136374	781717	720753	452756928	457208128	360761664	338768512	356952000	448318944	418086016	361378688	341843744	453769408	386697664	462946112	407339648	470700256	464586880	422311264	436123360	503376448	438932832	390498592	459899264	460244544	315598080	452744096	457946368	452610304	453363488	444727488	451575904	436571168
+Serine	10026	7856	12968	4673376	3105504	2812453	4148916	4606656	2922798	2850798	3461630	3325780	3326778	2761969	3216750	4657612	3819066	3754560	3300301	4009781	3388334	3306067	3231738	12949	10720	12170	4200376	4644530	2760973	4043834	2724562	4796763	4195470	3085083	2866468	5232804	2305773	3090374	2695202	3373380	3111842	2411033	3101114	3743102	2892898	2661375	4009461	3950327	3676434	4089306	4061225	3853046	3918080	3729055	3641266	3534218
+Hypotaurine	194.3371338	194.4371338	1943	8254	6759	6885	6373	194.5371338	2255	6102	11377	10881	6450	40243	52809	30661	51801	31476	70271	34116	58399	60675	54144	194.6371338	194.7371338	194.8371338	23817	7929	21400	10821	12707	21244	5172	4596	2481	14380	53662	61594	75920	68934	32650	35309	53520	49408	93201	41478	34364	31677	42745	42287	36163	34217	39437	27755	25910	35901
+Cytosine	22489	19998	21660	824017	764533	465003	841946	705551	504718	592618	724384	406384	546267	42446	44983	64392	51118	54369	57728	68268	45830	41499	33779	29496	19955	21785	601048	494376	389454	147993	316612	278913	311651	492752	276327	392524	44222	36574	44105	42231	48778	45461	34507	62585	30467	47647	232237	256747	213882	316812	289129	355328	307526	291300	294507	283947
+Histamine	179257	201181	200916	463324	259563	275405	382318	352318	220170	244561	278075	251817	252387	966640	1198851	1625445	1378298	1461659	1087058	1383842	1410353	1383164	1417334	202313	188422	186622	372383	362126	249220	417309	245940	434040	374769	224138	229594	440019	888939	1221843	926797	1251757	1227209	977203	1301623	1699820	1191196	877619	832774	693684	799080	840276	880495	874374	712637	702801	755967	828659
+Creatinine	283110	271216	223983	2202233	2217354	1693150	2447443	2455877	1902866	1699556	1982726	1774916	1641226	8016152	7274778	13194644	8996505	9956642	8348112	12519458	7700807	7406964	6314274	353589	312883	261202	2224859	1823020	1659464	1480636	1667142	2067851	2085156	2014890	1930159	2028706	5876589	7231831	6435688	8847089	9624258	7708674	7149178	10877836	7044918	6544740	4732108	4844342	3804060	5367856	5594391	5418688	5620348	5518144	5728436	5737498
+Proline	267859	250027	296674	203005200	142654144	139433568	186588192	189606432	167677232	182028816	201403280	187808464	190835120	109822464	117367728	170663264	142955824	138155920	126686904	159020896	110159032	119889800	97696368	471221	346977	336830	185031840	173871696	124254544	134997888	125299008	231404480	215034944	165348032	156852944	223972144	95271472	122774936	109210864	133077848	129234656	110634312	126531688	148639648	118567832	105430928	172685632	169587616	136627536	176513616	178879840	176592112	178604432	167799392	169335488	170430992
+Betaine	1445345	681551	655643	421861696	314232736	287042944	398002560	392186272	287772480	288026912	312367936	299263264	296181600	496016800	504266176	608935424	539577600	545957568	523452256	574600384	492925376	515131296	405139584	1473245	944611	1278676	396423520	409607616	293967136	298913504	276833888	428256832	399639488	299878016	292582016	420130144	446457856	510686400	472792128	512201184	518986272	491350784	499103264	561256576	501619360	489724512	465814304	449385312	350128352	468504288	472870848	463462272	470515232	464986368	467251776	468265056
+Valine	1303352	1278285	1261582	78946632	59273040	57559152	73674496	73079432	72478408	74795840	78316672	78442808	76947528	37557824	39825624	58367004	48071020	49951676	43879356	56796628	40087184	40497508	33175520	1651068	1589602	1593501	69978264	65950900	47582680	63029572	47100384	91252400	86207568	72924320	65098308	94430072	33136262	41346148	36579344	45216708	47143148	37019012	41851320	50878420	40809584	35567752	61707536	63735776	52949640	67035636	67450896	66164844	65727280	66644148	65230228	67458912
+Threonine	12143	14159	10200	5697729	4168584	3630738	5764830	5685613	4964141	5186336	5499586	5555694	5455936	3767115	4131089	5740914	4749926	4845261	4195214	5383823	4111120	4286084	3976039	22308	12633	13596	5457962	5457748	3568573	4517590	3459379	7231969	6188870	4744590	4314584	6981996	3347169	4173967	3642475	4589364	4355594	3661374	4273478	4892852	3952661	3715261	5117978	5200020	4634199	5590988	5504525	5455824	5469852	5420878	5184262	5038184
+Nicotinamide	418861	409523	395486	14197569	12547950	14970580	12392138	15364004	10242503	9271580	10483273	11826749	11292134	11537929	13246248	18027136	17707828	13742762	11901022	24866870	14312063	9943748	9672017	538784	372311	358221	5784728	6956774	7443190	5360758	9059740	7978362	7135698	6771866	8831163	10266436	5629646	9018684	5857023	8729074	10858268	5537174	9651283	10087480	7629652	4967348	9155267	8498700	7360879	9581165	9507763	9447440	8223779	9323876	8970034	9088863
+Niacin	79707	81003	70746	649669	591199	666308	537778	471560	446626	517974	680224	701679	567248	89363	110158	76475	109087	70244	126093	139899	107061	70085	98522	98097	92607	85485	817745	1028401	937163	716136	843352	922368	614090	631891	525654	908931	81790	75148	92560	100126	118518	121207	79617	101046	109013	116007	509458	499768	390332	492177	519002	456445	343778	399327	359612	371257
+Taurine	35229.73438	35229.83438	35229.93438	554249	463566	352297	500189	548527	363213	391235	421360	398579	413935	3119554	3376098	4681144	3925758	3995573	3694733	4323076	3754051	3610284	3577012	35230.03438	35230.13438	35230.23438	551111	574656	367390	511871	372749	594207	495555	433089	410592	547215	2933800	3765946	3222164	4077804	4107594	3564602	3833038	4694372	3894304	3650790	2153555	2067902	1912521	2121072	2174166	2119579	2133631	2093772	1997838	1997320
+Pyroglutamic acid	3694	5036	1688	201251	140480	151527	146068	160238	107619	127625	129242	145049	147990	102246	143092	181063	169931	167110	127745	163332	147956	129885	127250	4535	5012	4982	138508	139332	89833	108818	114370	139868	111676	109554	77659	141547	74308	109107	105684	111941	123847	71874	109591	149288	125809	107572	127726	141941	113992	149716	133110	133953	131122	136306	128976	126476
+Pipecolic acid	89811	92035	84172	22308652	15137181	13977449	19883346	19407162	80221456	78120064	82839096	83796072	81893936	184009	135455	207548	158309	200954	214252	224289	191210	169617	153032	108060	93173	95496	19142372	16490415	10580259	12362320	11995424	86048448	81020856	61337552	61105932	85367800	205812	158520	186356	204311	194221	212686	162234	286967	200096	207801	29752256	30223942	23999114	30869674	31716840	31588280	31295256	32312584	30584256	31464916
+Leucine	575254	528746	468089	279476448	237082880	229875776	264104528	258787760	270898240	282054464	316815168	281916512	284687264	167177776	168212896	242024592	207772912	207790944	186713568	240168944	177116384	160180976	143363152	764874	699273	654216	256339856	253073840	200930368	168595920	201217648	280550176	261678384	261144896	233816592	301728800	149305936	189878656	159716912	185973680	196361456	163478240	185806608	218372672	176950512	153210816	237491088	242043200	205869344	240499904	243511040	242331472	237946208	240449792	238262256	240109872
+Isoleucine	550478	519043	473683	201394816	173888336	173360736	190496832	191694784	139508848	145808976	166046064	158051760	152167280	153385392	167157584	221955808	208944768	205528960	168313520	208333664	170984272	161866352	134915776	768161	702072	633239	189841856	197802672	161802768	128189168	158916688	177749216	165755616	150190384	134163688	195182912	141527184	175279904	155887072	185349232	182704224	155623664	173461440	201917264	174231648	152420112	189314352	180903232	148835440	186437008	192881760	191738176	178813648	176038976	177936608	174971056
+Asparagine	3223	322.3218018	3694	23344008	19964550	18747898	22321506	22558876	17899810	17832836	21043186	19976632	19523376	10719553	12431070	16635463	14123155	14053166	12378224	15331057	12649816	12904086	12139003	18402	10557	11577	21418842	22995504	17482642	20817424	17539858	23344302	20233760	18266906	17540882	23501222	8937301	11441686	10237267	12597907	11868877	9702785	11902335	13723155	10920147	9873311	17655818	17146164	16878194	18177908	18031148	17307726	17365686	16755504	17540610	16087808
+Ornithine	55244	56851	63187	86819760	87826448	67949640	60099136	67488680	57888420	62554084	94021664	64402556	83198960	45431424	60953864	78126816	67646712	94698232	66004052	96621376	61945884	68038240	80249536	85216	65256	69052	69166840	67524688	61425372	82215752	65894368	82633448	57277360	81628008	84398320	94146024	39279976	42526876	48203916	68995904	66448228	48095512	54237328	64250308	70877912	47068228	57935952	55542820	53692960	59143660	59634396	59529108	69657896	70317424	75788304	69028088
+Aspartic acid	1795	179.5366089	2364	2310404	1957838	1983653	2026218	1964591	2782865	2285171	2888527	2761764	3393562	2410185	2929324	3586682	3142004	3517310	2734286	3570555	2865550	2897096	2754226	10255	2183	2416	2239040	2450366	1725259	2953078	1627114	3163086	2392715	2586128	1805744	3132692	1878789	3077944	2458711	3277108	2940023	2606576	3134142	3629444	2809385	2493385	2809626	2294586	2845500	2937465	3001364	2846901	2633597	2717738	2240700	2280579
+Adenine	167505	150751	137079	2612242	2186038	1314613	2475462	2938892	2325588	2401372	2381836	2471815	2559560	993148	1432320	994124	1479058	1489307	503299	293074	336984	334085	469270	225737	171319	162334	2200965	2072451	326364	2180326	263281	2611322	2462966	1230790	2552579	3051178	1445540	1600003	1628813	1525245	781882	1209690	1823852	528952	1875514	1710721	1874136	1965664	1689851	2305279	2194918	2283662	2214880	2109565	2363796	2259981
+Hypoxanthine	243641	289369	173625	266995152	245178240	232964192	257736640	238260464	196472656	207117744	230502192	196414448	215275680	177089744	189816832	239193536	239848256	215681920	196508880	246720544	184503808	131113976	124171232	495336	453907	409966	232290624	237672224	189409440	105753768	173245280	135268000	147428496	192334336	131733992	183746896	174907952	212963120	177509872	208433152	223396896	162272752	208874464	223670896	185992624	158540864	201290432	203312992	166399712	207089040	211745488	208158688	202220048	202514016	199104128	204124320
+1-Methylnicotinamide	78757	68626	68809	433080	392094	310265	408358	383486	288274	348596	292859	333831	370268	1352312	1299598	1526424	1538182	1462805	1356658	1513399	1352985	1306977	1044302	74079	82471	74719	400306	420331	354315	310681	313980	420010	438891	364991	348320	428606	1024399	1322280	1246228	1336208	1431996	1140000	1304419	1462379	1326557	1216379	912906	777089	691938	898382	820026	795268	817967	888307	858658	901403
+Urocanic acid	349629	313033	397153	349927	242145	235632	327179	827072	445692	253108	288697	255473	285081	1448488	201030	252612	201489	247689	467530	249561	253255	1266861	233567	502742	454307	447079	243079	355571	204997	219893	544052	706648	406265	1031195	473592	397548	426609	380701	540059	334851	202666	204027	690309	270731	443925	269065	548387	489063	443932	518634	496331	477386	404529	389691	408610	370836
+O-Phosphoethanolamine	1341.330762	1341.430762	1341.530762	2348983	2150754	2317077	1771460	2053291	2374429	2574518	3140828	3118497	2986256	25224	30566	36741	34548	37158	26902	43348	42936	34012	31838	1341.630762	1341.730762	1341.830762	1132323	1170282	1414946	1400039	1502430	1703471	1354408	1425723	1396298	1919186	14971	31741	13413	40202	51928	39957	18526	54639	46095	38929	884124	791561	952069	964437	1076394	1047450	895036	815641	903598	778218
+Glutamine	34501	35126	19833	125524296	99264016	100969872	115683288	115786208	82154296	87361344	98411408	89369736	90934408	87994480	95714400	131825696	113104200	115817840	98700336	124597696	92791824	95736768	89746208	124882	76751	73517	116669024	120835144	87667408	100855984	90959792	109322592	95150048	90479864	81936176	110780712	71363128	90838760	79826960	99480112	97439344	77835296	91427352	109810160	84598920	78470024	110581448	111919832	105222688	104006696	105554928	103423856	105849848	106496744	105904064	100586864
+Lysine	41395	36103	34502	23608226	22946314	19913720	21131188	22724114	43277768	40622524	55989304	51368472	50434276	9722614	11711363	17247970	14858305	14926833	13019035	17282440	12591079	13016666	11547324	59392	39977	48343	22476206	20836488	21359286	20230646	21380288	44916480	30179876	39716924	36488508	44185508	9587694	11157489	11286057	13365055	12212414	10024372	11989290	13530179	12930934	10056076	19793990	18635546	19847312	21128840	22225318	22865568	23035646	21751776	19917802	19760368
+Glutamic acid	22408	19307	19586	84933560	66693228	63057656	66911664	73107296	50506516	51843960	67464688	64635776	62272640	22590732	28779334	36382884	32342876	32480822	25884786	33831192	28530354	29901834	31140800	50228	19548	23019	74051792	86581744	62827264	96531392	59924332	88955192	69524272	62138252	60110496	89048096	16838594	25796230	21337516	25888902	23675230	18770902	24743858	29593258	22134382	20079676	56211756	51035900	54413688	56213436	53298908	54414736	47759608	48795024	47996952	43821628
+Methionine	7065	10909	5278	12782590	10239724	10352256	12248331	9672969	9366866	10323993	11899061	10554897	10610973	16868046	17379432	21326958	20140404	17743106	17445400	20981036	17464730	17412298	14045882	19823	21264	18086	17350460	13947371	12728104	10642957	12190527	16705813	15445254	12480334	11304489	17069872	14992080	17733876	16025606	18872692	17101250	14137571	17430586	18042804	18717288	14708215	14611609	15096259	12822174	15640404	15627432	15747993	15660243	14747047	15382197	14787461
+Guanine	2170	2318	2413	7168531	6511903	5590227	6644727	6366277	5877919	5913856	6988889	5644593	6140224	1500521	1792895	1749588	2262708	1913427	1588686	1837211	1677740	1219301	936260	2628	2866	2499	5325727	4870773	4070301	2616060	3751333	3375084	3668910	4420836	3187794	4740054	1981039	2527068	2145361	2427998	2347917	1676948	2543658	2514743	2235079	1801750	3879053	3744293	3167241	4147353	4121990	4117238	4072197	3806458	4040714	4038711
+Phenylglycine*	34701	35411	34254	38038	45047	35940	45469	43928	338231	576995	573406	592638	522324	36262	20801	17493	39679	25681	36626	47630	46703	45765	34387	49563	46860	47789	49768	27904	26885	44062	41922	450481	512198	304612	200855	365579	41081	52303	33311	24987	39590	36283	19335	24734	25634	40936	59859	67705	60008	89365	76649	85432	94904	74441	40878	36351
+Histidine	17988	12072	16613	44996060	46328792	36565616	39942716	37657592	45396936	51110388	79521888	67773080	71922936	11527937	17890580	18803696	20435424	22822186	15875633	27189676	17040152	18407158	17981564	29382	21052	28969	46269996	35304268	45775180	46468512	47090532	67036740	54082648	54750280	40489208	69233272	11303577	16227847	13941956	18768072	15605951	12794520	17049736	22403012	13807485	10751664	26727930	20553900	28994460	27954880	31614586	27986920	25943108	28754660	28197470	20671576
+Carnitine	243905	243139	183065	88054840	48379448	57132096	60952376	65257688	47830908	43520808	56831412	50855544	54843132	244699248	320863296	326949952	328007968	327916992	276227360	309758912	282883168	316012768	343400224	804480	1194237	207563	70413736	92189200	48407876	70769688	50166664	83720656	66294040	50468056	45271700	79484544	260953344	395938144	284193984	322620960	306012160	269455104	365163712	465866240	335347968	287163328	203782016	206517056	184344080	194667728	184231296	174420224	169358672	171869616	164617968	166580128
+Nicotine	198789	469040	121554	601010	513249	353382	758104	196079	129951	242343	135157	364633	527186	372033	322488	357375	275039	312182	788159	265901	373125	448914	554180	271054	492182	562450	1004338	242693	204851	100398	219592	334088	195378	364594	403036	182809	537597	418375	297691	623354	424848	443636	893211	563095	3800952	258214	572533	567173	396001	564925	583940	538538	485024	506634	472817	513845
+Methylguanine	233.7710938	2338	233.8710938	606110	459663	412153	540567	455017	385866	431221	460195	373546	357499	25842	23373	44401	37286	30326	27142	43975	33520	20246	18446	233.9710938	234.0710938	234.1710938	330549	283992	226648	128313	182302	217510	246573	282010	183805	267750	20708	29257	24678	32407	36510	24600	31642	46068	27568	7886	235107	216844	175824	245364	246580	245864	218468	226454	195551	214678
+Phenylalanine	103935	105972	77430	141758976	119854768	113883888	133001656	127591376	161302944	167003008	188215616	173331680	172492176	72375504	79237736	103438808	96396528	96121056	81852624	104358200	76534696	72786592	63299440	170464	146650	142400	124033048	120849064	97119568	80311208	97386240	156105008	145936304	142615168	128941488	167626032	62552120	83207312	69955944	84544104	87598408	68918416	81052224	95000680	78114040	66271292	118377552	117115184	94166016	121497392	124449944	120879240	119075984	116494488	118916728	116894296
+Pyridoxine	13543	17710	11702	16955736	13395516	16076019	17462714	13167085	11856288	13454881	14604842	14083202	11609610	16049770	16498215	10452403	15983995	12505535	14404252	10143816	13490899	14606981	9048408	55730	55333	50879	23407064	18217254	19172702	10533881	17619502	19871176	17066210	16566927	12829619	18613510	18559942	19102612	20031198	17902482	14832718	14758360	18561686	14662275	20573718	16025651	18117182	18427142	12766707	17945588	18094190	18263096	17652838	18007112	17698884	17019942
+1-Methylhistidine	27830	16158	25483	30120	30043	28126	22106	39048	30624	32319	33298	33046	29449	153982	167413	175594	139780	195414	136043	206402	161018	164210	158668	21730	20385	22204	27477	33186	31816	33546	26952	38682	33971	37381	30525	32555	186368	244845	193590	275650	222946	189688	251404	317382	235565	211869	101236	90889	94784	102652	107015	100985	98789	106281	98818	105938
+Indole-3-acetamide	31437	37399	33425	1801827	1098873	1611246	1138448	1623188	2247476	2179106	2021408	2062018	2157722	567811	824997	987967	1022185	1244433	686620	1187926	1005619	1229167	874143	50106	39627	37015	1057963	1687039	1246352	954659	1516391	1305614	1392509	1636572	1421926	2103859	289850	744643	369852	658753	808860	519943	663030	1253672	533929	854729	1036723	1121194	695555	1435448	1124945	1404445	1029747	1032012	914226	841175
+Arginine	128417	110930	111462	364776000	401603840	265018528	359312704	312062112	358971168	295581760	401979296	395525792	326083424	169165456	160985808	199366784	203781776	168465488	167866896	164677968	140212928	153331104	125126952	393612	311208	281603	350664864	414977408	249190640	241862144	243169040	361482656	240195152	306954016	282146880	305878176	213780528	182473824	247178272	187256224	167362016	139530096	176553632	188326112	188187104	138515968	267890096	258373872	234175936	224608416	236209552	255845984	268621248	257885376	247744576	245600736
+Citrulline	15410	5279	6168	2958886	2156969	3037409	2241500	2191938	1508875	1555724	2037176	1836937	1784697	3413320	3760390	5035752	4333788	4447554	3856484	4922682	3839344	3839722	4081664	14242	12929	14896	1750732	1820454	1454887	5644433	1360448	2761791	2596384	2407281	2028803	2999788	2882305	4214288	3465740	4371434	4108826	3584639	3960677	5032326	3865784	3438249	3094877	2972176	3073331	3147897	3067864	3037990	3054846	3028991	2974662	2887400
+Tyrosine	17586	21662	18876	8076103	5099373	6286012	6094220	5776356	5533559	5723443	7334666	6497394	6492258	4827911	6742656	5422235	6643183	5701126	5029144	4660986	4844270	6473828	5397378	29954	28234	28419	6579196	8158022	5131158	5652698	5129857	9061698	6288389	5396320	4810766	7746674	5131978	6973015	5762869	5554850	4012307	4035786	6291224	6194568	6279274	4542063	7283829	7839005	6459084	6995660	6359266	5927592	6010416	5910094	5441859	5787880
+Phosphorylcholine	30695	38437	28376	394365	372098	401033	457862	550641	1241895	1284655	385899	2134860	2742638	44544	287211	64945	192097	39481	256851	230823	178421	73674	309984	31093	13613	15663	990167	1021336	2087475	1279778	1949158	1613288	334564	321476	834547	1143719	70329	76831	52145	287128	343539	222933	85865	281187	204931	217836	701216	534016	352381	1028346	288027	984449	1194936	627316	176793	111413
+N1-Acetylspermidine	5700	7213	8715	5156606	5038838	4423062	3174908	4695984	3722592	3032637	5299780	5264062	5202526	294651	435475	415139	524095	450636	212725	301059	268415	276647	268964	16244	10727	13720	2777670	3306396	3479432	4066610	3680796	4187572	2528007	1751478	2607754	4146611	275907	508606	390584	444857	474402	282829	346733	556588	247465	166174	2341999	1447112	2378420	2344344	2445683	2368430	1531014	1812903	1942455	1622107
+N8-Acetylspermidine	20241	22809	21684	468460	891544	323086	613681	436954	574826	403611	651662	636017	580103	374.972583	375.072583	375.172583	375.272583	375.372583	375.472583	375.572583	375.672583	4889	4591	15039	23511	21686	476948	714391	175597	314818	203661	327148	285467	343257	296279	252712	10956	7235	375.772583	375.872583	5425	375.972583	376.072583	13109	4089	3750	148404	152249	120255	127500	116749	125389	156508	179751	155929	178869
+N,N-Dimethylarginine	4580	2258	225.7717041	4751284	2347229	2359103	3076323	3107300	2561122	2997672	5064994	4645652	4954486	203921	355819	515217	432562	434951	346382	598342	350363	471861	435943	3490	225.8717041	2549	3089506	3489342	1879161	4034239	1918895	6219314	4215164	2373929	2975760	7298482	123236	370764	229712	267077	261394	138078	396024	717029	261957	138464	2104668	1318924	1999167	2289985	2310986	2086375	1681137	1759839	1425241	1988946
+Acetylcarnitine	103928	132865	93616	178455520	133071312	150536160	166045056	159080144	127806192	128590576	158332960	151006048	133602872	602506944	652442816	760587008	722596288	743416768	640537664	751813504	617449600	686914496	606884160	338838	164499	135950	174476464	219536896	142284480	153061584	145855840	217054128	175585200	140145856	140464816	213291456	519731520	783641344	550223424	634626496	671917888	621330624	676022528	932896000	793649664	610818560	476513856	494648224	340672960	429912896	479367360	400990016	373546688	383749728	391341696	387013120
+Tryptophan	19899	17464	11158	17373906	14652765	15521160	17086206	12483685	19960704	21215684	23668738	23015538	20845186	11831365	11296771	12132382	12126995	9985738	10667224	10523880	9627134	10266437	8509073	17637	16346	23597	19510052	14948188	14611689	11305810	14862845	24040062	19863740	16273399	16238611	20268614	9727129	10280396	11506777	11184960	8817959	7404521	8594337	7864127	9976236	7937688	14220818	14393064	13249957	15081389	14873765	15568302	15220885	15316388	15417751	15094322
+Kynurenine	8140	10211	10298	206675	184891	165246	193456	275430	225188	220907	259527	194203	293668	113034	115006	337734	168645	235953	134640	313566	136030	125558	120516	11962	12525	14381	106249	177313	80314	145251	84459	120064	188235	211914	208835	195616	76486	163065	76785	158598	217216	162708	148994	334436	103404	124235	207542	165911	153622	152767	155651	178032	149151	198440	189739	190760
+Pantothenic acid	8941	6823	6165	6885026	4965816	6442136	5322378	5193854	4411638	4671560	5902028	5444702	5810149	3900073	4653708	5577153	5542750	5412884	4633034	5537274	4575530	4992976	4230392	5570	8570	5294	5714812	8696692	5752388	5202211	6098333	6477386	5017334	5090248	4563964	6999441	3043067	4904610	3422167	3963116	4551698	3683196	4353120	6398624	4645117	3594874	6090874	5998629	4287184	5430049	5671598	5356352	4633594	4674395	4922150	4680770
+Carnosine*	31519	31015	29647	86968	82298	100710	55447	122051	129837	113211	125608	141763	124299	81899	83895	104721	61204	104245	88125	116786	74298	97669	68500	30913	25235	32377	98007	104091	84756	98447	86710	241992	175749	209491	238794	251138	89292	93295	58326	93114	91786	89500	90375	37129	92831	77087	128416	88117	74666	66428	108393	104379	83901	97995	86178	92157
+2-Deoxycytidine	151.5300171	1605	1515	423710	370350	223861	403437	332036	225913	269760	337556	183633	261464	151.6300171	3767	8421	18014	6929	6794	12605	5616	151.7300171	151.8300171	151.9300171	2524	152.0300171	273388	206807	185669	62757	142937	115375	126394	217539	108348	172837	152.1300171	152.2300171	3710	152.3300171	4453	3829	7353	16077	152.4300171	152.5300171	110174	116645	99679	135692	124290	148746	124042	129194	119698	125190
+Cystine	1119.12998	1119.22998	1119.32998	208905	348015	1531262	205585	221068	257793	335749	439923	215231	424655	72402	144284	67932	110993	136663	124304	61471	150005	226993	81706	16579	11191	14151	127049	178380	824416	134934	1368641	157499	93022	250029	139446	194389	276232	257354	264891	200587	194839	202414	313423	292883	301581	254048	199760	188148	195288	174123	232091	164462	159653	133904	122779	135313
+Anserine*	194.9193848	195.0193848	195.1193848	127522	144345	129037	110901	152971	122724	135530	164407	149237	145631	72769	69469	113187	96920	109082	84352	97074	94231	93193	89359	195.2193848	1949	195.3193848	134923	142790	128926	134581	130934	158802	132967	109620	127315	135242	75700	87575	75881	96134	73179	80513	93231	112224	91958	80880	115030	113775	100853	91351	115820	113759	107540	100671	112429	112770
+Cytidine	1467.680566	1467.780566	1467.880566	254672	241394	209981	230374	245231	383968	329633	373259	384638	342258	121080	89983	152367	126799	170478	104282	191874	64353	32711	52623	1467.980566	1468.080566	1468.180566	218590	205142	202585	66627	166147	87186	115996	121612	85325	153781	33287	77984	43215	67203	109430	14677	54110	309579	28508	1468.280566	218998	199662	151683	162977	203295	203762	173930	158415	177642	173957
+Biotin	24287	16444	26047	4303186	3385886	2751219	3759876	3302432	3089158	3490778	3017111	2726530	2569414	1376532	1467279	1716248	1725921	1321493	1521060	1902887	1287640	1251471	1164590	2397	239.6517578	3209	3755298	3146078	3572910	1900341	4079887	3021306	3173697	3179337	2541145	3230287	1523962	1501267	1610351	1646938	1565384	1159727	1305841	1240745	1554335	1433542	2246032	2286698	1403978	2553776	2659868	2418980	2527486	2464258	2701988	2738800
+N1-Acetylspermine	21.71312256	21.81312256	21.91312256	308075	295945	310944	162738	439375	146226	22.01312256	327432	22946	22505	211293	22.11312256	311727	128892	246477	22.21312256	19386	140688	365361	16502	22.31312256	1872	2153	104915	150779	17063	142681	10831	5526	170112	301512	131325	166161	239075	336424	208072	22.41312256	7046	22.51312256	259438	10263	9836	22.61312256	128363	115434	285594	8754	291106	22.71312256	19364	22.81312256	256274	259023
+Glycerophosphocholine	115265	67571	65516	51703080	32068530	29699274	44853996	44184568	25343544	23781820	35741900	31989348	34396576	21520068	26824258	40272300	30384986	32200266	25936098	35678812	27849752	27892498	26959336	391740	53802	76671	37053176	49785100	23938586	44455780	23417150	46844472	38602424	23726858	23968044	50637788	15159178	25502094	18685758	25179122	23409888	18695022	24130434	42763752	22394062	18213724	40783456	36374108	34373360	36318736	34991492	34692624	31733038	30291736	32684616	28997674
+Thiamine	4483	9574	2658	63638148	45697324	52378308	55815360	54035524	37440308	40210952	47711580	43370144	44215612	15621618	16974794	19062642	19185282	18972970	16280454	18287510	15974663	16318153	11736080	18640	14634	4378	46770952	54414316	39733192	41792484	39692576	50261628	46233348	38387576	37034420	53718352	13196940	15821414	13859277	14404824	15394963	12610117	15425551	16438384	14762527	12358537	35181104	35451732	24447614	34301080	34316680	33569812	31403982	32246936	30832212	32218010
+Inosine	185.3212036	2421	1853	1453180	1389966	1170678	1264727	1183092	980945	1129062	1299475	968721	1131792	1424741	1570913	2442647	2351717	2015653	1520621	2297097	1576862	1049216	1135294	2099	185.4212036	185.5212036	1123363	1065426	1103450	612336	997270	759869	766170	1067837	806917	1014970	1218593	1524197	1365944	1611980	1751504	1052586	1455688	1620399	1239845	1044013	1205296	1300220	1134272	1416354	1422924	1428645	1275836	1222837	1311424	1270994
+Ophthalmic acid	13988.03125	13988.13125	13988.23125	259013	200963	155080	224131	242657	142506	139880	160757	170311	187035	2648754	3115784	4176847	3672154	3725232	2905966	3895780	3068433	3152056	3401422	13988.33125	13988.43125	13988.53125	284174	324524	197559	336506	182120	330007	244653	184218	196035	343621	2620714	3776498	3156590	3878596	3676955	2994968	3608108	4351997	3454901	3016551	2001164	1822079	1883207	1963653	1871556	1851013	1737702	1801761	1764502	1631711
+Deoxycytidine monophosphate*	25422.56719	25422.66719	25422.76719	623011	616522	504386	525710	548387	628028	629843	717256	707286	744895	296461	333665	419037	367726	383141	317152	398374	346194	327544	356034	25422.86719	25422.96719	25423.06719	526563	535215	461785	508883	483976	593083	478857	503762	530556	543678	270588	315545	254226	355153	368922	333540	319497	395364	347547	262988	452313	435768	433612	471881	460858	446642	475039	475348	446412	441052
+Glutathione (GSH)	142439	134106	135609	59366220	58486520	36318960	55836980	70036864	46190912	32948372	45798296	57474780	45652348	15079472	21094716	32142754	30430752	32179044	16836560	30351946	17263246	14612348	20579462	158820	152506	143402	23375206	60759632	17210382	29146230	12118622	27439486	25143004	21254024	28034658	32361850	13614433	16239361	14236404	19381692	18537598	15885981	18484704	20379300	15629817	15965086	26129510	24259014	26142714	26656420	26760594	26463200	24944830	24761166	24372898	24165336
+Cytidine monophosphate	2070.02168	2070.12168	2070.22168	52280	34858	48703	31263	59154	394334	448266	430806	411056	419968	2070.32168	2070.42168	2070.52168	2070.62168	2070.72168	2070.82168	2070.92168	2071.02168	2071.12168	2071.22168	2071.32168	2071.42168	2071.52168	36240	31402	42311	64340	50164	68123	86027	53056	57254	43971	2071.62168	2071.72168	2071.82168	2071.92168	2072.02168	2072.12168	2072.22168	20700	2072.32168	2072.42168	65663	68553	69819	66792	87981	80727	84089	72944	72387	77209
+Adenosine monophosphate	7197	237.7681885	3499	2017543	1665241	2245206	1545484	1754099	2554131	3262729	3771985	3450170	4403208	1117102	891561	1627518	1459915	1269090	1169939	2772414	2154573	2174986	2069167	8056	2378	3921	1381042	1254085	2154719	1907544	3662609	1542715	1627120	1465628	1262700	1341440	359651	607956	521833	798987	1030044	588600	547162	892598	440687	494566	1452070	1195159	1520938	1673021	1772683	1751962	1519380	1581036	1555392	1536395
+Inosine monophosphate	207.5366211	2075	2731	26483912	24357052	29786824	21459558	22887198	19349172	20642580	25395940	23424860	29014266	28119114	34862208	43117616	38247672	42299024	31901692	44681328	36636864	38562608	38252632	6734	2195	2370	33526452	30756778	41474560	42081448	40561748	36008900	30878564	32860602	27556708	38353120	19209100	32221436	24868326	33990648	32952368	27905630	32783912	39217628	27798210	25459192	31001182	25968094	32060148	33402458	33254196	31753928	28093036	27548118	26684060	25845800
+Guanosine monophosphate	221.2936523	221.3936523	221.4936523	323817	292667	410141	246912	261372	422446	459336	512770	473751	549711	17306	22776	36221	29064	19837	34048	47766	37565	53913	34559	221.5936523	2213	221.6936523	324716	249074	401406	463223	430987	392980	395024	334410	335356	318249	25580	21892	34267	27536	26509	30973	21347	78488	24589	24613	188648	178147	198059	211894	226728	215585	213045	190505	219295	209925
+Riboflavin	36.87640991	36.97640991	369	874270	768234	820642	826822	736624	654181	772782	854705	765074	781949	158108	189568	229511	213958	207673	162089	252895	153137	167301	103564	37.07640991	37.17640991	37.27640991	698174	779895	680296	535752	672789	599481	570767	632554	572216	709700	165813	195939	184513	190486	220525	136541	155774	214626	155885	132851	445360	460111	359096	447323	448970	465452	486361	458696	431841	431719
+S-Adenosylhomocysteine	2392.30332	2392.40332	2392.50332	387572	378358	307518	396958	398310	346700	371460	400942	419216	399333	26415	26484	52024	33616	29895	36127	78401	35699	33780	27518	2392.60332	2392.70332	2392.80332	343373	336869	252143	324828	252035	374355	335240	305916	333363	382115	23923	33295	30678	47009	32505	32609	38640	36435	30244	34468	222346	199581	189941	205936	220281	205724	205864	193289	205863	209573
+S-Adenosylmethionine	76251.075	76251.175	76251.275	8009571	8663179	4377802	4941985	6984566	5138202	3826623	8557124	7314195	6645418	936010	1040744	1427703	1295313	1422675	1126048	1148591	1160828	1202025	1086879	76251.375	76251.475	76251.575	4621020	4494662	4066073	6008086	4038525	6037096	3102402	3525373	3676604	6351404	762511	901750	1154526	1204944	1030836	932892	1046908	1195691	1179659	931017	2321715	2002731	2770359	2982389	3464290	3464240	3056130	2595609	2899115	2328958
+CDP-Ethanolamine*	3966.244922	3966.344922	3966.444922	4620553	4688528	3861550	4399760	4363860	4007228	4116444	4649484	4606844	4575939	51132	52071	64191	58871	57803	60723	74394	53504	41553	53594	3966.544922	3966.644922	3966.744922	3217402	3252707	3094560	3532708	3101742	3482322	2873290	3142822	3151112	3690785	44870	53169	41025	57375	45297	44394	63416	75629	63765	39662	1798485	1722458	1802440	1988983	2081667	2092654	1851849	1893688	1939295	1944552
+Citicoline	25260.66875	25260.76875	25260.86875	4034086	3938148	3722226	3659604	3737440	3804972	3994974	4594943	4429812	4375130	320662	370189	502746	471082	441378	409722	481406	415922	404387	425907	25260.96875	25261.06875	25261.16875	3202477	3467668	2803216	3376124	2701148	3555746	2935073	2885535	3085927	3481830	252607	353629	259469	346135	306580	307603	312777	471859	328264	303116	2029532	2001781	1998223	1954388	1989344	2055587	1938881	1873056	1907617	1950387
+Uridine diphosphateglucose	136102.4	136102.5	136102.6	1816240	1667344	2094521	1361024	1499966	1670542	1753463	1853292	1632984	2042623	2207673	2742403	3133332	3046030	3235958	2647688	3286460	2907994	2982519	3147431	136102.7	136102.8	136102.9	2147072	2000582	2330390	2718792	2391158	1936940	1920276	2160452	1871882	2225088	1795671	3021136	2268772	2980526	2826312	2585062	2999290	3659111	2586564	2360307	2250916	2093364	2485398	2414904	2339406	2219132	2067132	1976251	2143439	2020974
+Uridine diphosphategalactose	3126.114648	3126.214648	3126.314648	61760	59115	114804	59022	31261	84016	95901	84591	74420	80576	91369	103080	141925	107456	128871	146459	139634	103304	135396	130496	3126.414648	3126.514648	3126.614648	80329	116962	90933	124434	126290	79939	118169	46259	63728	62463	56706	123843	120953	81291	65693	87511	113235	159973	62553	74535	111610	105329	101086	97736	59773	68380	118811	75343	105164	90096
+Glutathione (GSSG)	52423	44846	59815	65499084	55820608	78756984	45840716	62202240	55778492	66231980	76458032	60812436	84929168	75136088	98156280	122014928	113293168	131288728	100198512	128929152	120043720	125017992	122592656	72713	60953	63286	68631288	55092416	96552000	94311776	109599512	79590936	71583760	78516256	71063392	90032304	68991760	101683736	73899920	108063432	102438256	98164120	103239072	131655032	91768904	86743792	83688184	73844424	89865952	89125816	93805096	86875720	75127904	76340752	74204008	71686304
+NAD	232.2520508	232.3520508	232.4520508	124426584	118812824	108034384	108885232	112371184	102872400	103156304	123234512	118625736	115971832	12050314	13818203	16976278	15578914	15968259	13765906	15952075	13911027	14914264	14454950	13063	2323	232.5520508	104341152	116632208	94593400	117460768	95146840	111571432	95545184	97637272	103076768	106174096	9404318	13935184	11269307	14294965	13833595	12383103	13385617	16855562	11939703	11240749	68254672	62196288	63411752	63563036	63686196	63125320	61108304	60095412	63135088	57790300
+NADH	333.5813965	333.6813965	333.7813965	36953	28251	126458	34243	57784	8165	4913	3336	19100	6925	47526	76181	6657	59950	35448	18234	24346	30708	72461	57607	333.8813965	333.9813965	334.0813965	33945	47680	13913	18762	50333	71951	49130	31728	37948	33252	445159	196792	214743	205027	185690	124606	144305	142212	407699	266466	210298	177407	246046	253809	260300	255233	275092	244692	244783	248085
+MS_METABOLITE_DATA_END
+#METABOLITES
+METABOLITES_START
+metabolite_name	Average Rt(min)	Average Mz	Adduct type	Formula	Ontology	INCHIKEY	SMILES
+Trimethylamine	3.351	60.08067	[M+H]+	C3H9N	HMDB0000906	GETQZCLCWQTVFV-UHFFFAOYAA	CN(C)C
+Urea	2.865	61.03949	[M+H]+	CH4N2O	HMDB0000294	XSQUKJJJFZCRTK-UHFFFAOYAF	C(=N)(N)O
+Putrescine	14.582	72.08064	[M+H-NH3]+	C4H12N2	HMDB0001414	KIDHWZJUCRJVML-UHFFFAOYAX	C(CCN)CN
+Trimethylamine N-oxide	4.232	76.07558	[M+H]+	C3H9NO	HMDB0000925	UYPYRKYUKCHHIB-UHFFFAOYAU	C[N+](C)(C)[O-]
+Alanine	9.044	90.05466	[M+H]+	C3H7NO2	HMDB0000161	QNAYBMKLOCPYGJ-REOHCLBHBS	C[C@@H](C(=O)O)N
+5-Aminovaleric acid	6.891	101.05949	[M+H-NH3]+	C5H11NO2	HMDB0003355	JJMDCOVWQOJGCB-UHFFFAOYAD	C(CCN)CC(=O)O
+Homoserine*	9.207	102.05472	[M+H-H2O]+	C4H9NO3	HMDB0000719	UKAUYVFTDYCKQA-UHFFFAOYAZ	C(CO)C(C(=O)O)N
+gamma-Aminobutyric acid	7.715	104.0703	[M+H]+	C4H9NO2	HMDB0000112	BTCSSZJGUNDROE-UHFFFAOYSA-N	NCCCC(O)=O
+Dimethylglycine	6.878	104.07037	[M+H]+	C4H9NO2	HMDB0000092	FFDGPVCHZBVARC-UHFFFAOYAX	CN(C)CC(=O)O
+Choline	3.703	104.10677	[M+H]+	C5H13NO	HMDB0000097	OEYIOHPDSNJKLS-UHFFFAOYAN	C[N+](C)(C)CCO
+Serine	10.272	106.04957	[M+H]+	C3H7NO3	HMDB0062263	MTCFGRXMJLQNBG-REOHCLBHBX	C([C@@H](C(=O)O)N)O
+Hypotaurine	9.407	110.02689	[M+H]+	C2H7NO2S	HMDB0000965	VVIUBCNYACGLLV-UHFFFAOYAM	C(CS(=O)O)N
+Cytosine	4.215	112.05034	[M+H]+	C4H5N3O	HMDB0000630	OPTASPLRGRRNAP-UHFFFAOYAY	c1cnc(=O)[nH]c1N
+Histamine	10.883	112.08679	[M+H]+	C5H9N3	HMDB0000870	NTYJJOPFIAHURM-UHFFFAOYAP	c1c(nc[nH]1)CCN
+Creatinine	3.315	114.06608	[M+H]+	C4H7N3O	HMDB0000562	DDRJAANPRJIHGJ-UHFFFAOYAV	CN1CC(=NC1=N)O
+Proline	7.127	116.07034	[M+H]+	C5H9NO2	HMDB0000162	ONIBWKKTOPOVIA-BYPYZUCNBZ	C1C[C@H](NC1)C(=O)O
+Betaine	6.06	118.08598	[M+H]+	C5H11NO2	HMDB0000043	KWIUHFFTVRNATP-IKLDFBCSAC	C[N+](C)(C)CC(=O)O
+Valine	6.887	118.08599	[M+H]+	C5H11NO2	HMDB0000883	KZSNJWFQEVHDMF-BYPYZUCNBW	CC(C)[C@@H](C(=O)O)N
+Threonine	9.208	120.06543	[M+H]+	C4H9NO3	HMDB0000167	AYFVYJQAPQTCCC-GBXIJSLDBG	C[C@H]([C@@H](C(=O)O)N)O
+Nicotinamide	1.564	123.05499	[M+H]+	C6H6N2O	HMDB0001406	DFPAKSUCGFBDDF-UHFFFAOYAZ	c1cc(cnc1)C(=N)O
+Niacin	2.828	124.03913	[M+H]+	C6H5NO2	HMDB0001406	PVNIIMVLHYAWGP-UHFFFAOYAA	c1cc(cnc1)C(=O)O
+Taurine	9.188	126.02169	[M+H]+	C2H7NO3S	HMDB0000251	XOAAWQZATWQOTB-UHFFFAOYAA	C(CS(=O)(=O)O)N
+Pyroglutamic acid	6.75	130.04967	[M+H]+	C5H7NO3	HMDB0000267	ODHCTXKNWHHXJC-VKHMYHEABY	C1CC(=O)N[C@@H]1C(=O)O
+Pipecolic acid	6.906	130.08617	[M+H]+	C6H11NO2	HMDB0000070	HXEACLLIILLPRG-UHFFFAOYAL	C1CCNC(C1)C(=O)O
+Leucine	5.134	132.10168	[M+H]+	C6H13NO2	HMDB0000687	ROHFNLRQFUQHCH-YFKPBYRVBU	CC(C)C[C@@H](C(=O)O)N
+Isoleucine	5.603	132.10191	[M+H]+	C6H13NO2	HMDB0000172	AGPKZVBTJJNPAG-WHFBIAKZBB	CC[C@H](C)[C@@H](C(=O)O)N
+Asparagine	10.223	133.06047	[M+H]+	C4H8N2O3	HMDB0000168	DCXYFEDJOCDNAF-REOHCLBHSA-N	N[C@@H](CC(N)=O)C(O)=O
+Ornithine	13.756	133.09691	[M+H]+	C5H12N2O2	HMDB0000214	AHLPHDHHMVZTML-BYPYZUCNBZ	C(C[C@@H](C(=O)O)N)CN
+Aspartic acid	11.893	134.04456	[M+H]+	C4H7NO4	HMDB0000191	CKLJMWTZIZZHCS-REOHCLBHBW	C([C@@H](C(=O)O)N)C(=O)O
+Adenine	2.326	136.06148	[M+H]+	C5H5N5	HMDB0000034	GFFGJBXGBJISGV-UHFFFAOYAT	c1[nH]c(c-2ncnc2n1)N
+Hypoxanthine	2.632	137.04544	[M+H]+	C5H4N4O	HMDB0000157	FDGQSTZJBFJUBT-UHFFFAOYSA-N	OC1=NC=NC2=C1NC=N2
+1-Methylnicotinamide	4.924	137.07074	[M+H]+	C7H9N2O	HMDB0000699	LDHMAVIPBRSVRG-IKLDFBCSAY	C[n+]1cccc(c1)C(=O)N
+Urocanic acid	2.368	139.04997	[M+H]+	C6H6N2O2	HMDB0000301	LOIYMIARKYCTBW-OWOJBTEDBA	c1c(nc[nH]1)/C=C/C(=O)O
+O-Phosphoethanolamine	12.991	142.0262	[M+H]+	C2H8NO4P	HMDB0000224	SUHOOTKUPISOBE-UHFFFAOYAT	C(COP(=O)(O)O)N
+Glutamine	10.003	147.07632	[M+H]+	C5H10N2O3	HMDB0000641	ZDXPYRJPNDTMRX-UHFFFAOYAL	C(CC(=O)N)C(C(=O)O)N
+Lysine	13.402	147.11247	[M+H]+	C6H14N2O2	HMDB0000182	KDXKERNSBIXSRK-YFKPBYRVBE	C(CCN)C[C@@H](C(=O)O)N
+Glutamic acid	10.989	148.06015	[M+H]+	C5H9NO4	HMDB0000148	WHUUTDBJXJRKMK-VKHMYHEABN	C(CC(=O)O)[C@@H](C(=O)O)N
+Methionine	6.253	150.058	[M+H]+	C5H11NO2S	HMDB0000696	FFEARJCKVFRZRR-BYPYZUCNBW	CSCC[C@@H](C(=O)O)N
+Guanine	4.866	152.05627	[M+H]+	C5H5N5O	HMDB0000132	UYTPUPDQBNUYGX-UHFFFAOYAE	c1[nH]c2c(=O)[nH]c(nc2n1)N
+Phenylglycine*	6.917	152.06805	[M+H]+	C8H9NO2	HMDB0002210	ZGUNAGUHMKGQNY-UHFFFAOYAB	c1ccc(cc1)C(C(=O)O)N
+Histidine	12.103	156.07649	[M+H]+	C6H9N3O2	HMDB0000177	HNDVDQJCIGZPNO-YFKPBYRVBM	c1c(nc[nH]1)C[C@@H](C(=O)O)N
+Carnitine	7.493	162.11201	[M+H]+	C7H15NO3	HMDB0000062	PHIQHXFUZVPYII-UHFFFAOYAT	C[N+](C)(C)CC(CC(=O)[O-])O
+Nicotine	2.907	163.12277	[M+H]+	C10H14N2	HMDB0014330	SNICXCGAKADSCV-UHFFFAOYAX	CN1CCCC1c2cccnc2
+Methylguanine	2.814	166.07193	[M+H]+	C6H7N5O	HMDB0003282	RFLVMTUMFYRZCB-UHFFFAOYAM	Cn1c(=O)c2c([nH]cn2)nc1N
+Phenylalanine	4.902	166.0858	[M+H]+	C9H11NO2	HMDB0000159	COLNVLDHVKWLRT-QMMMGPOBBC	c1ccc(cc1)C[C@@H](C(=O)O)N
+Pyridoxine	2.269	170.08076	[M+H]+	C8H11NO3	HMDB0000239	LXNHXLLTXMVWPM-UHFFFAOYAQ	Cc1c(c(c(cn1)CO)CO)O
+1-Methylhistidine	10.455	170.09233	[M+H]+	C7H11N3O2	HMDB0000001	BRMWTNUJHUMWMS-LURJTMIEBU	Cn1cc(nc1)C[C@@H](C(=O)O)N
+Indole-3-acetamide	1.563	175.08617	[M+H]+	C10H10N2O	HMDB0029739	ZOAMBXDOGPRZLP-UHFFFAOYAC	c1ccc2c(c1)c(c[nH]2)CC(=N)O
+Arginine	13.082	175.11874	[M+H]+	C6H14N4O2	HMDB0000517	ODKSFYDXXFIFQN-BYPYZUCNBA	C(C[C@@H](C(=O)O)N)CNC(=N)N
+Citrulline	10.842	176.10268	[M+H]+	C6H13N3O3	HMDB0000904	RHGKLRLOHDJJDR-UHFFFAOYAQ	C(CC(C(=O)O)N)CNC(=O)N
+Tyrosine	7.536	182.08073	[M+H]+	C9H11NO3	HMDB0000158	OUYCCCASQSFEME-QMMMGPOBBZ	c1cc(ccc1C[C@@H](C(=O)O)N)O
+Phosphorylcholine	12.309	184.07288	[M+H]+	C5H14NO4P	HMDB0001565	YHHSONZFOIEMCP-UHFFFAOYSA-O	C[N+](C)(C)CCOP(O)(O)=O
+N1-Acetylspermidine	12.767	188.17529	[M+H]+	C9H21N3O	HMDB0002189	FONIWJIDLJEJTL-UHFFFAOYAO	C/C(=N/CCCCNCCCN)/O
+N8-Acetylspermidine	13.134	188.17532	[M+H]+	C9H21N3O	HMDB0002189	FONIWJIDLJEJTL-UHFFFAOYAO	C/C(=N/CCCCNCCCN)/O
+N,N-Dimethylarginine	10.929	203.14999	[M+H]+	C8H18N4O2	HMDB0001539	YDGMGEXADBMOMJ-LURJTMIEBT	CN(C)C(=N)NCCC[C@@H](C(=O)O)N
+Acetylcarnitine	5.048	204.12257	[M+H]+	C9H17NO4	HMDB0000201	RDHQFKQIGNGIED-UHFFFAOYSA-N	CC(=O)OC(CC([O-])=O)C[N+](C)(C)C
+Tryptophan	5.881	205.09666	[M+H]+	C11H12N2O2	HMDB0000929	QIVBCDIJIAJPQS-VIFPVBQEBP	c1ccc2c(c1)c(c[nH]2)C[C@@H](C(=O)O)N
+Kynurenine	5.262	209.09138	[M+H]+	C10H12N2O3	HMDB0000684	YGPSJZOEDVAXAB-QMMMGPOBBJ	c1ccc(c(c1)C(=O)C[C@@H](C(=O)O)N)N
+Pantothenic acid	1.737	220.11769	[M+H]+	C9H17NO5	HMDB0000210	GHOKWGTUZJEAQD-ZETCQYMHBS	CC(C)(CO)[C@H](C(=O)NCCC(=O)O)O
+Carnosine*	13.061	227.11359	[M+H]+	C9H14N4O3	HMDB0000033	CQOVPNPJLQNMDC-ZETCQYMHBX	c1c(nc[nH]1)C[C@@H](C(=O)O)NC(=O)CCN
+2-Deoxycytidine	4.225	228.09756	[M+H]+	C9H13N3O4	HMDB0000014	CKTSBUTUHBMZGZ-SHYZEUOFBO	c1cn(c(=O)nc1N)[C@H]2C[C@@H]([C@H](O2)CO)O
+Cystine	13.548	241.03078	[M+H]+	C6H12N2O4S2	HMDB0000192	LEVWYRKDKASIDU-IMJSIDKUBJ	C([C@@H](C(=O)O)N)SSC[C@@H](C(=O)O)N
+Anserine*	12.832	241.1292	[M+H]+	C10H16N4O3	HMDB0000194	MYYIAHXIVFADCU-QMMMGPOBBJ	Cn1cncc1C[C@@H](C(=O)O)/N=C(/CCN)O
+Cytidine	5.624	244.09258	[M+H]+	C9H13N3O5	HMDB0000089	UHDGCWIWMRVCDJ-XVFCMESIBD	c1cn(c(=O)nc1N)[C@H]2[C@@H]([C@@H]([C@H](O2)CO)O)O
+Biotin	1.564	245.09477	[M+H]+	C10H16N2O3S	HMDB0000030	YBJHBAHKTGYVGT-ZKWXMUAHBB	C1[C@H]2[C@@H]([C@@H](S1)CCCCC(=O)O)NC(=O)N2
+N1-Acetylspermine	13.763	245.23306	[M+H]+	C12H28N4O	HMDB0001186	GUNURVWAJRRUAV-UHFFFAOYAM	C/C(=N/CCCNCCCCNCCCN)/O
+Glycerophosphocholine	10.242	258.10992	[M+H]+	C8H20NO6P	HMDB0000086	SUHOQUVVVLNYQR-MRVPVSSYBR	C[N+](C)(C)CCOP(=O)([O-])OC[C@@H](CO)O
+Thiamine	5.666	265.11115	[M]+	C12H18N4OS	HMDB0000235	JZRWCGZRTZMZEH-UHFFFAOYSA-N	CC1=C(CCO)SC=[N+]1CC1=CN=C(C)N=C1N
+Inosine	4.192	269.08801	[M+H]+	C10H12N4O5	HMDB0000195	UGQMRVRMYYASKQ-KQYNXXCUBA	c1nc2c(c(n1)O)ncn2[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O
+Ophthalmic acid	10.976	290.134	[M+H]+	C11H19N3O6	HMDB0005765	JCMUOFQHZLPHQP-BQBZGAKWSA-N	CC[C@H](NC(=O)CC[C@H](N)C(O)=O)C(=O)NCC(O)=O
+Deoxycytidine monophosphate*	13.254	308.06381	[M+H]+	C9H14N3O7P	HMDB0001202	NCMVOABPESMRCP-SHYZEUOFSA-N	NC1=NC(=O)N(C=C1)[C@H]1C[C@H](O)[C@@H](COP(O)(O)=O)O1
+Glutathione (GSH)	11.338	308.09064	[M+H]+	C10H17N3O6S	HMDB0000125	RWSXRVCMGQZWBV-GDVGLLTNBT	C(CC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(C(=O)O)N
+Cytidine monophosphate	12.968	324.05878	[M+H]+	C9H14N3O8P	HMDB0000095	IERHLVCPSMICTF-XVFCMESIBY	c1cn(c(=O)nc1N)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)O
+Adenosine monophosphate	10.896	348.06992	[M+H]+	C10H14N5O7P	HMDB0000045	UDMBCSSLTHHNCD-KQYNXXCUBP	c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)O)O)O)N
+Inosine monophosphate	11.868	349.05414	[M+H]+	C10H13N4O8P	HMDB0000175	GRSZFWQUAKGDAV-KQYNXXCUBU	c1[nH]c2c(c(=O)n1)ncn2[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)O)O)O
+Guanosine monophosphate	13.548	364.06433	[M+H]+	C10H14N5O8P	HMDB0001397	RQFCJASXJCIDSX-UUOKFMHZBU	c1nc2c(=O)[nH]c(nc2n1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)O)O)O)N
+Riboflavin	2.351	377.14487	[M+H]+	C17H20N4O6	HMDB0000244	AUNGANRZJHBGPY-SCRDCRAPBG	Cc1cc2c(cc1C)n(c-3nc(=O)[nH]c(=O)c3n2)C[C@@H]([C@@H]([C@@H](CO)O)O)O
+S-Adenosylhomocysteine	9.406	385.12766	[M+H]+	C14H20N6O5S	HMDB0000939	ZJUKTBDSGOFHSH-WFMPWKQPSA-N	N[C@@H](CCSC[C@H]1O[C@H]([C@H](O)[C@@H]1O)N1C=NC2=C1N=CN=C2N)C(O)=O
+S-Adenosylmethionine	12.953	399.14423	[M+H]+	C15H22N6O5S	HMDB0001185	MEFKEPWMEQBLKI-AIRLBKTGSA-O	C[S+](CC[C@H](N)C(O)=O)C[C@H]1O[C@H]([C@H](O)[C@@H]1O)N1C=NC2=C1N=CN=C2N
+CDP-Ethanolamine*	14.01	447.06732	[M+H]+	null	null	null	null
+Citicoline	13.6	489.11325	[M+H]+	C14H26N4O11P2	HMDB0001413	RZZPDXZPRHQOCG-UHFFFAOYSA-N	C[N+](C)(C)CCOP([O-])(=O)OP(O)(=O)OCC1OC(C(O)C1O)N1C=CC(N)=NC1=O
+Uridine diphosphateglucose	15.301	584.08862	[M+NH4]+	C15H24N2O17P2	HMDB0000302	HSCJRCZFDFQWRP-ABVWGUQPBC	c1cn(c(=O)[nH]c1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)O[C@@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)O)O
+Uridine diphosphategalactose	15.757	584.08893	[M+NH4]+	C15H24N2O17P2	HMDB0000302	HSCJRCZFDFQWRP-ABVWGUQPBC	c1cn(c(=O)[nH]c1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)O[C@@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)O)O
+Glutathione (GSSG)	15.816	613.15808	[M+H]+	C20H32N6O12S2	HMDB0003337	YPZRWBKMTBYPTK-BJDJZHNGBD	C(CC(=O)N[C@@H](CSSC[C@@H](C(=O)NCC(=O)O)NC(=O)CC[C@@H](C(=O)O)N)C(=O)NCC(=O)O)[C@@H](C(=O)O)N
+NAD	12.306	664.11383	[M+H]+	C21H27N7O14P2	HMDB0000902	BAWFJGJZGIEFAR-NNYOXOHSSA-N	NC(=O)C1=C[N+](=CC=C1)[C@@H]1O[C@H](COP([O-])(=O)OP(O)(=O)OC[C@H]2O[C@H]([C@H](O)[C@@H]2O)N2C=NC3=C2N=CN=C3N)[C@@H](O)[C@H]1O
+NADH	13.156	666.13135	[M+H]+	C21H29N7O14P2	HMDB0001487	BOPGDPNILDQYTO-NNYOXOHSBA	c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OC[C@@H]4[C@H]([C@H]([C@@H](O4)N5C=CCC(=C5)C(=O)N)O)O)O)O)N
+METABOLITES_END
+#END

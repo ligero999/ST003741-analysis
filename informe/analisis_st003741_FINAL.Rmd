@@ -1,0 +1,238 @@
+
+--- 
+title: "Análisis de datos metabolómicos del estudio ST003741"
+author: "Jorge Ligero López"
+date: '02/04/2025'
+output:
+  pdf_document: default
+---
+
+# Tabla de contenidos
+
+- [Resumen](#resumen)
+- [Objetivos](#objetivos)
+- [Métodos](#métodos)
+- [Resultados](#resultados)
+- [Discusión](#discusion)
+- [Conclusiones](#conclusiones)
+
+# Resumen
+
+Este trabajo explora los datos metabolómicos del estudio ST003741 de la página web de Metabolomics Workbench, centrado en el análisis de eritrocitos humanos en condiciones de infección por *Plasmodium falciparum*. Se utilizan datos obtenidos mediante espectrometría de masas en modos positivo y negativo. A través de técnicas estadísticas y bioinformáticas, como PCA y heatmaps, se identifican patrones metabólicos asociados con la infección y el tratamiento con bilirrubina o DMSO. Los resultados muestran una clara separación entre grupos de tratamiento y condición de infección, sugiriendo posibles mecanismos de resistencia metabólica. Este análisis proporciona una base para futuras investigaciones sobre biomarcadores o rutas implicadas en la malaria.
+
+# Objetivos
+
+- Analizar datos metabolómicos del estudio ST003741.
+- Explorar diferencias metabólicas entre eritrocitos infectados y no infectados.
+- Evaluar el efecto de tratamientos con bilirrubina y DMSO.
+- Aplicar técnicas de análisis exploratorio y multivariante (PCA, heatmap).
+- Interpretar los hallazgos en contexto biológico.
+
+# Métodos
+
+## Diferencias entre SummarizedExperiment y ExpressionSet
+
+Ambas clases permiten almacenar datos de expresión junto con metadatos de muestras y variables. Sin embargo, `SummarizedExperiment` es una evolución moderna de `ExpressionSet`, más flexible y ampliamente adoptada en el ecosistema Bioconductor:
+
+- `SummarizedExperiment` permite múltiples matrices de datos (por ejemplo, conteos crudos y normalizados) mediante `assays=list(...)`, mientras que `ExpressionSet` solo una.
+- `SummarizedExperiment` usa `DataFrame` del paquete `S4Vectors`, lo que le proporciona una integración más moderna con otras herramientas Bioconductor.
+- Acceder a datos es más intuitivo con `SummarizedExperiment`: `assay(se)`, `colData(se)`, `rowData(se)`.
+- Está diseñado para facilitar el trabajo con grandes volúmenes de datos y estructuras complejas como RNA-seq, ChIP-seq o metabolómica.
+
+Por estas razones, `SummarizedExperiment` es preferido actualmente para nuevos desarrollos y análisis en bioinformática.
+
+```{r setup, include=FALSE}
+library(readr)
+library(dplyr)
+library(pheatmap)
+library(FactoMineR)
+library(factoextra)
+library(stringr)
+library(ggplot2)
+library(reshape2)
+
+ruta_base <- "C:/Users/liger/Documents/Libros y apuntes de micro/Máster en bioestadística y bioinformática UOC/Análisis de datos ómicos/PEC1/"
+
+leer_datos <- function(nombre_archivo) {
+  archivo <- read_lines(paste0(ruta_base, nombre_archivo))
+  tabla_inicio <- which(str_count(archivo, "	") > 5)[1]
+  datos_brutos <- archivo[tabla_inicio:length(archivo)]
+  tabla <- read_tsv(paste(datos_brutos, collapse = "
+"), show_col_types = FALSE)
+  if ("Factors" %in% colnames(tabla)) {
+    tabla <- tabla %>% select(-Factors)
+  }
+  tabla_rownames <- make.unique(tabla[[1]])
+  rownames(tabla) <- tabla_rownames
+  tabla <- tabla[,-1]
+  matriz <- t(apply(tabla, 2, as.numeric))
+  colnames(matriz) <- rownames(tabla)
+  rownames(matriz) <- colnames(tabla)
+  return(matriz)
+}
+
+extraer_metadata <- function(matriz) {
+  muestras <- rownames(matriz)
+  condiciones <- str_match(muestras, "(iRBC|RBC).*?(BR|DMSO)")
+  df <- data.frame(Sample = muestras,
+                   Infection = ifelse(condiciones[,2] == "iRBC", "Infected", "Non-infected"),
+                   Treatment = ifelse(condiciones[,3] == "BR", "Bilirubin", "DMSO"),
+                   stringsAsFactors = TRUE)
+  rownames(df) <- muestras
+  df <- df[complete.cases(df), ]
+  return(df)
+}
+
+graficar_pca_se <- function(se, titulo) {
+  matriz <- t(assay(se))
+  metadata <- as.data.frame(colData(se))
+  matriz <- matriz[, colSums(is.na(matriz)) == 0]
+  res_pca <- PCA(matriz, graph = FALSE)
+  fviz_pca_ind(res_pca,
+               habillage = metadata$Treatment,
+               addEllipses = TRUE,
+               palette = "jco",
+               title = titulo)
+}
+
+graficar_heatmap_se <- function(se, titulo) {
+  matriz <- t(assay(se))
+  metadata <- as.data.frame(colData(se))
+  varianzas <- apply(matriz, 2, var, na.rm = TRUE)
+  top_vars <- names(sort(varianzas, decreasing = TRUE))[1:5]
+  matriz_top <- matriz[, top_vars]
+  matriz_top <- na.omit(matriz_top)
+  matriz_top_scaled <- t(scale(t(matriz_top)))
+  anotacion <- data.frame(Treatment = metadata$Treatment,
+                          Infection = metadata$Infection)
+  rownames(anotacion) <- rownames(matriz_top)
+  pheatmap(matriz_top_scaled,
+           annotation_row = anotacion,
+           cluster_cols = TRUE,
+           main = titulo)
+}
+
+analisis_exploratorio_se <- function(se, titulo) {
+  datos <- t(assay(se))
+  metadata <- as.data.frame(colData(se))
+  df <- as.data.frame(datos)
+  df$Group <- interaction(metadata$Infection, metadata$Treatment)
+  df_melt <- melt(df, id.vars = "Group")
+  ggplot(df_melt, aes(x = Group, y = value, fill = Group)) +
+    geom_boxplot() +
+    facet_wrap(~variable, scales = "free_y") +
+    theme_minimal() +
+    labs(title = paste("Análisis exploratorio de metabolitos -", titulo), x = "Grupo", y = "Intensidad relativa")
+}
+
+matriz_pos <- leer_datos("ST003741_AN006143.txt")
+matriz_neg <- leer_datos("ST003741_AN006142.txt")
+
+metadata_pos <- extraer_metadata(matriz_pos)
+metadata_neg <- extraer_metadata(matriz_neg)
+```
+# Crear objetos con SummarizedExperiment
+
+```{r}
+if (!requireNamespace("SummarizedExperiment", quietly = TRUE)) {
+  install.packages("BiocManager")
+  BiocManager::install("SummarizedExperiment")
+}
+library(SummarizedExperiment)
+se_pos <- SummarizedExperiment(
+  assays = list(counts = t(matriz_pos[rownames(metadata_pos), , drop = FALSE])),
+  colData = metadata_pos,
+  rowData = DataFrame(Metabolite = colnames(matriz_pos))
+)
+
+se_neg <- SummarizedExperiment(
+  assays = list(counts = t(matriz_neg[rownames(metadata_neg), , drop = FALSE])),
+  colData = metadata_neg,
+  rowData = DataFrame(Metabolite = colnames(matriz_neg))
+)
+# Visualización de ejemplo
+se_pos
+assay(se_pos)[1:5, 1:5]
+colData(se_pos)
+rowData(se_pos)
+```
+
+
+## Fuente y naturaleza de los datos
+Los datos provienen del repositorio público [Metabolomics Workbench](https://www.metabolomicsworkbench.org), estudio ST003741. Se utilizaron dos archivos `.txt` correspondientes al modo positivo y negativo del análisis LC-MS:
+
+- ST003741_AN006143.txt (modo positivo)
+- ST003741_AN006142.txt (modo negativo)
+
+## Procesamiento y herramientas
+
+- Lectura de datos con `readr`
+- Limpieza y transformación de datos en matrices numéricas
+- Extracción de metadatos desde los nombres de muestra
+- Creación de objetos `SummarizedExperiment` para combinar datos y metadatos
+- PCA con `FactoMineR` y `factoextra`
+- Visualización mediante `ggplot2` y `pheatmap`
+- Análisis exploratorio por grupos con `ggplot2`
+
+## Flujo general de análisis
+
+Todo el análisis se ha realizado empleando objetos `SummarizedExperiment`, lo que garantiza una integración eficiente de datos y metadatos, y facilita la exploración, visualización y análisis estadístico.
+
+1. Carga y limpieza de archivos `.txt` crudos del Metabolomics Workbench
+2. Extracción de metadatos (Infection, Treatment) desde nombres de muestra
+3. Construcción de objetos `SummarizedExperiment` (modo positivo y negativo)
+4. Exploración de metabolitos con mayor variabilidad
+5. Análisis multivariante (PCA) y generación de heatmaps
+6. Interpretación visual de agrupamientos por condición y tratamiento
+
+# Resultados
+
+## PCA modo positivo
+
+```{r pca-positivo, echo=FALSE}
+graficar_pca_se(se_pos, "PCA - Modo positivo (SE)")
+```
+El PCA en modo positivo muestra una clara separación entre muestras infectadas tratadas con bilirrubina y DMSO. Esta diferenciación sugiere que el tratamiento afecta significativamente al perfil metabólico de las células infectadas.
+
+## Heatmap modo positivo
+```{r heatmap-positivo, echo=FALSE}
+graficar_heatmap_se(se_pos, "Heatmap - Modo positivo (SE)")
+```
+Los metabolitos más variables reflejan diferencias marcadas entre grupos, con ciertos compuestos más expresados en condiciones de bilirrubina.
+
+## PCA modo negativo
+```{r pca-negativo, echo=FALSE}
+graficar_pca_se(se_neg, "PCA - Modo negativo (SE)")
+```
+
+Aunque menos definido que el modo positivo, el PCA negativo aún distingue parcialmente los tratamientos, confirmando diferencias consistentes.
+
+## Heatmap modo negativo
+
+```{r heatmap-negativo, echo=FALSE}
+graficar_heatmap_se(se_neg, "Heatmap - Modo negativo (SE)")
+```
+Los metabolitos destacados apuntan a rutas implicadas en estrés oxidativo y metabolismo energético.
+
+## Análisis exploratorio
+
+```{r exploratorio-positivo, echo=FALSE}
+analisis_exploratorio_se(se_pos, "Modo positivo (SE)")
+```
+
+```{r exploratorio-negativo, echo=FALSE}
+analisis_exploratorio_se(se_neg, "Modo negativo (SE)")
+```
+
+
+# Discusión
+
+Este análisis revela diferencias claras en el perfil metabolómico inducidas por la infección por *P. falciparum* y el tratamiento con bilirrubina. La separación observada en PCA y heatmaps valida la relevancia biológica del tratamiento. Sin embargo, el tamaño limitado de muestra y la posible presencia de ruidos técnicos puede que representen limitaciones en el estudio.
+
+# Conclusiones
+
+El estudio demuestra que la metabolómica puede detectar diferencias entre condiciones de infección y tratamientos. La Bilirrubina parece inducir un cambio metabólico detectado en eritrocitos infectados, posiblemente asociado a mecanismos de resistencia. El uso conjunto de modos positivo y negativo mejora la robustez del análisis y permite una visión más completa del perfil metabolómico.
+
+# Referencias
+
+https://github.com/ligero999/ST003741-analysis
